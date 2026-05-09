@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+         #blue_text a {
+            display: flex;
+            justify-content: center;
+            color: slateblue;
+            text-decoration: none;
+        }
         body {
             background-color: black;
             color: white;
@@ -50,17 +56,12 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
-        h3 {
-            text-align: center;
-            color: white;
-            font-family: sans-serif;
-            
+    
+        .image {
+            display: flex;
+            justify-content: center;
         }
-        h3 a {
-            color: darkslateblue;
-            text-decoration: underline;
-            font-weight: bold;
-        }
+       
     </style>
 </head>
 <body>
@@ -75,11 +76,11 @@
 
 <hr>
 
-<h3>
+<h3 id="blue_text">
     <a href="Music.html">Click here to check out our music!</a>
 </h3>
 <hr>
 <br><br><br>
-<center><img src="Visby_pose.jpg" width="400" height="300"></center>
+<div class="image"><img src="Visby_pose.jpg" width="400" height="300"></div>
 </body>
 </html>
